@@ -1,18 +1,22 @@
 {
   "files": {
     "main.css": "/static/css/main.9e5c6393.css",
-    "main.js": "/static/js/main.3b2f4f70.js",
+    "main.js": "/static/js/main.961c5ddf.js",
     "static/media/pc_rehstore_2.png": "/static/media/pc_rehstore_2.c37e5fe7d715613e8c14.png",
+    "static/media/Ivan.png": "/static/media/Ivan.f6b96d35411ffc5bad18.png",
     "static/media/square4.png": "/static/media/square4.b0072563cab16ef45d81.png",
     "static/media/pc_rehstore.png": "/static/media/pc_rehstore.ae188b456f27c7b13337.png",
     "static/media/square1.png": "/static/media/square1.082ea17aaf44aed9868a.png",
     "static/media/square3.png": "/static/media/square3.235ea41b7cee0696448d.png",
     "static/media/square2.png": "/static/media/square2.8ce0f9b6a9f216ada045.png",
     "static/media/square5.png": "/static/media/square5.16283001f5a086113265.png",
+    "static/media/ori_logo.png": "/static/media/ori_logo.22cf37351c344352ceff.png",
     "static/media/darken-night-sky-full-of-stars-fantasy-animation-made-of-magical-sparkly-light-particles-flickering-on-a-purple-blue-gradient-background_bajacpz7x_thumbnail-full01.png": "/static/media/darken-night-sky-full-of-stars-fantasy-animation-made-of-magical-sparkly-light-particles-flickering-on-a-purple-blue-gradient-background_bajacpz7x_thumbnail-full01.049a2cd26a85856a45e6.png",
     "static/media/night-sky-full-of-stars-fantasy-animation-made-of-magical-sparkly-light-particles-flickering-on-a-purple-blue-gradient-background_bajacpz7x_thumbnail-full01.png": "/static/media/night-sky-full-of-stars-fantasy-animation-made-of-magical-sparkly-light-particles-flickering-on-a-purple-blue-gradient-background_bajacpz7x_thumbnail-full01.e6a30d27482b2b409f71.png",
     "static/media/dots.png": "/static/media/dots.1e305f981d41a2c30adb.png",
+    "static/media/rehstore_logo.png": "/static/media/rehstore_logo.b0391cb35f78b2a7aa0d.png",
     "static/media/zlyntlab.png": "/static/media/zlyntlab.28f03441620fa115a6f7.png",
+    "static/media/blob.png": "/static/media/blob.e39506780c69b0fd8920.png",
     "static/media/react.png": "/static/media/react.f6b89d232c9bc9f828e5.png",
     "static/media/path1.png": "/static/media/path1.a0d20b6041dada5ed4fd.png",
     "static/media/path4.png": "/static/media/path4.cb1d9fab145d91e36846.png",
@@ -25,6 +29,6 @@
   },
   "entrypoints": [
     "static/css/main.9e5c6393.css",
-    "static/js/main.3b2f4f70.js"
+    "static/js/main.961c5ddf.js"
   ]
 }
