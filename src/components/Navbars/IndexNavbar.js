@@ -34,7 +34,7 @@ import {
   Col,
 } from "reactstrap";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBrain, faGamepad, faMagnifyingGlass, faMagnifyingGlassChart } from "@fortawesome/free-solid-svg-icons";
+import { faBrain, faMagnifyingGlassChart } from "@fortawesome/free-solid-svg-icons";
 import { faReact } from "@fortawesome/free-brands-svg-icons";
 
 export default function IndexNavbar() {
@@ -69,11 +69,6 @@ export default function IndexNavbar() {
   };
   const onCollapseExited = () => {
     setCollapseOut("");
-  };
-  const scrollToDownload = () => {
-    document
-      .getElementById("download-section")
-      .scrollIntoView({ behavior: "smooth" });
   };
   return (
     <Navbar className={"fixed-top " + color} color-on-scroll="100" expand="lg">

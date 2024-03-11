@@ -16,7 +16,6 @@
 
 */
 import React from "react";
-import classnames from "classnames";
 // javascript plugin used to create scrollbars on windows
 import PerfectScrollbar from "perfect-scrollbar";
 // reactstrap components
@@ -25,17 +24,6 @@ import {
   Card,
   CardHeader,
   CardBody,
-  Label,
-  FormGroup,
-  Form,
-  Input,
-  FormText,
-  NavItem,
-  NavLink,
-  Nav,
-  Table,
-  TabContent,
-  TabPane,
   Container,
   Row,
   Col,
@@ -65,7 +53,6 @@ const carouselItems = [
 let ps = null;
 
 export default function SolutionsPage() {
-  const [tabs, setTabs] = React.useState(1);
   React.useEffect(() => {
     if (navigator.platform.indexOf("Win") > -1) {
       document.documentElement.className += " perfect-scrollbar-on";
