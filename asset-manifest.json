@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/blk-design-system-react/static/css/main.3278a8b9.css",
+    "main.js": "/blk-design-system-react/static/js/main.226ab14f.js",
+    "static/media/pc_rehstore_2.png": "/blk-design-system-react/static/media/pc_rehstore_2.c37e5fe7d715613e8c14.png",
+    "static/media/square-purple-1.png": "/blk-design-system-react/static/media/square-purple-1.ed3a5e3801e35e68ab23.png",
+    "static/media/square4.png": "/blk-design-system-react/static/media/square4.b0072563cab16ef45d81.png",
+    "static/media/pc_rehstore.png": "/blk-design-system-react/static/media/pc_rehstore.ae188b456f27c7b13337.png",
+    "static/media/square1.png": "/blk-design-system-react/static/media/square1.082ea17aaf44aed9868a.png",
+    "static/media/square3.png": "/blk-design-system-react/static/media/square3.235ea41b7cee0696448d.png",
+    "static/media/square2.png": "/blk-design-system-react/static/media/square2.8ce0f9b6a9f216ada045.png",
+    "static/media/square5.png": "/blk-design-system-react/static/media/square5.16283001f5a086113265.png",
+    "static/media/darken-night-sky-full-of-stars-fantasy-animation-made-of-magical-sparkly-light-particles-flickering-on-a-purple-blue-gradient-background_bajacpz7x_thumbnail-full01.png": "/blk-design-system-react/static/media/darken-night-sky-full-of-stars-fantasy-animation-made-of-magical-sparkly-light-particles-flickering-on-a-purple-blue-gradient-background_bajacpz7x_thumbnail-full01.049a2cd26a85856a45e6.png",
+    "static/media/night-sky-full-of-stars-fantasy-animation-made-of-magical-sparkly-light-particles-flickering-on-a-purple-blue-gradient-background_bajacpz7x_thumbnail-full01.png": "/blk-design-system-react/static/media/night-sky-full-of-stars-fantasy-animation-made-of-magical-sparkly-light-particles-flickering-on-a-purple-blue-gradient-background_bajacpz7x_thumbnail-full01.e6a30d27482b2b409f71.png",
+    "static/media/profile-page.png": "/blk-design-system-react/static/media/profile-page.b97e816b5091a9a64dfa.png",
+    "static/media/denys.jpg": "/blk-design-system-react/static/media/denys.1b33975a99042a1db172.jpg",
+    "static/media/fabien-bazanegue.jpg": "/blk-design-system-react/static/media/fabien-bazanegue.3c5ff5a0fa1808d7747e.jpg",
+    "static/media/landing-page.png": "/blk-design-system-react/static/media/landing-page.bdf48695ada36191ba66.png",
+    "static/media/dots.png": "/blk-design-system-react/static/media/dots.1e305f981d41a2c30adb.png",
+    "static/media/zlyntlab.png": "/blk-design-system-react/static/media/zlyntlab.28f03441620fa115a6f7.png",
+    "static/media/mark-finn.jpg": "/blk-design-system-react/static/media/mark-finn.40b788574c95a0ec347e.jpg",
+    "static/media/react.png": "/blk-design-system-react/static/media/react.f6b89d232c9bc9f828e5.png",
+    "static/media/lora.jpg": "/blk-design-system-react/static/media/lora.47bdc98a432e80ad8a55.jpg",
+    "static/media/path1.png": "/blk-design-system-react/static/media/path1.a0d20b6041dada5ed4fd.png",
+    "static/media/ryan.jpg": "/blk-design-system-react/static/media/ryan.7990a5daca72c70c8868.jpg",
+    "static/media/path4.png": "/blk-design-system-react/static/media/path4.cb1d9fab145d91e36846.png",
+    "static/media/path5.png": "/blk-design-system-react/static/media/path5.037b2fcefee2867cd2f5.png",
+    "static/media/path3.png": "/blk-design-system-react/static/media/path3.3f66cc18d0e5e2526eb2.png",
+    "static/media/nucleo.eot": "/blk-design-system-react/static/media/nucleo.bd5cce8bf40be5947637.eot",
+    "static/media/nucleo.ttf": "/blk-design-system-react/static/media/nucleo.35b08447277ca7bf9f09.ttf",
+    "static/media/mike.jpg": "/blk-design-system-react/static/media/mike.fe979cd14af7d0fe5ad5.jpg",
+    "static/media/nucleo.woff": "/blk-design-system-react/static/media/nucleo.5c65ef4d6434bb8062a3.woff",
+    "static/media/james.jpg": "/blk-design-system-react/static/media/james.8d4c01bcd6210ed445e2.jpg",
+    "static/media/nucleo.woff2": "/blk-design-system-react/static/media/nucleo.6dfb4833e3a0132fd1fc.woff2",
+    "static/media/google.svg": "/blk-design-system-react/static/media/google.eae9aa9354350126d1b032847835a051.svg",
+    "static/media/github.svg": "/blk-design-system-react/static/media/github.6c95555646a0ecabf549179c97bf0e7d.svg",
+    "index.html": "/blk-design-system-react/index.html"
+  },
+  "entrypoints": [
+    "static/css/main.3278a8b9.css",
+    "static/js/main.226ab14f.js"
+  ]
+}
