@@ -15,8 +15,7 @@
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 */
-import React, { useEffect, useState } from "react";
-import classnames from "classnames";
+import React from "react";
 // javascript plugin used to create scrollbars on windows
 import PerfectScrollbar from "perfect-scrollbar";
 // reactstrap components
@@ -25,63 +24,24 @@ import {
     Card,
     CardHeader,
     CardBody,
-    CardTitle,
     Nav,
-    Table,
     TabContent,
     TabPane,
     Container,
     Row,
     Col,
     UncontrolledTooltip,
-    UncontrolledCarousel,
 } from "reactstrap";
 import { TypeAnimation } from 'react-type-animation';
 
 
 // core components
-import ExamplesNavbar from "components/Navbars/ExamplesNavbar.js";
 import Footer from "components/Footer/Footer.js";
 import IndexNavbar from "components/Navbars/IndexNavbar";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGlobe } from "@fortawesome/free-solid-svg-icons";
 
-const carouselItemsEducation = [
-    {
-        src: require("assets/img/software-engineer.webp"),
-        altText: "Slide 1",
-        caption: "",
-    },
-    {
-        src: require("assets/img/data-science.png"),
-        altText: "Slide 2",
-        caption: "",
-    },
-    {
-        src: require("assets/img/machine-learning.jpg"),
-        altText: "Slide 3",
-        caption: "",
-    },
-];
-
-const carouselItemsExperience = [
-    {
-        src: require("assets/img/software-engineer.webp"),
-        altText: "Slide 1",
-        caption: "",
-    },
-    {
-        src: require("assets/img/data-science.png"),
-        altText: "Slide 2",
-        caption: "",
-    },
-    {
-        src: require("assets/img/machine-learning.jpg"),
-        altText: "Slide 3",
-        caption: "",
-    },
-];
 
 const hellos = [
     // English
@@ -447,6 +407,7 @@ export default function ProfilePage() {
                                 <h1 className="profile-title text-left">Ivan Teixeira</h1>
                                 <h5 className="text-on-back">Zlynt</h5>
                                 <img
+                                    alt="Hello There!"
                                     src="https://media0.giphy.com/media/xTiIzJSKB4l7xTouE8/200.gif?cid=6c09b952wad5hpax364vkw3foo1l0tirttwgzku5s7v2e5ps&ep=v1_internal_gif_by_id&rid=200.gif&ct=g"
                                     width="200px"
                                     height="100px"
@@ -474,9 +435,9 @@ export default function ProfilePage() {
                                 <Card className="card-coin card-plain">
                                     <CardHeader>
                                         <img
-                                            alt="..."
                                             className="img-center img-fluid rounded-circle"
                                             src={require("assets/img/Ivan.png")}
+                                            alt="Profile Photo"
                                         />
                                         <h4 className="title">Areas of focus</h4>
                                     </CardHeader>
