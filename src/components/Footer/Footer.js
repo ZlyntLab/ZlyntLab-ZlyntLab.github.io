@@ -36,6 +36,7 @@ export default function Footer() {
         <Row>
           <Col md="3">
             <h1 className="title">ZLab•</h1>
+            <p>© Ivan Teixeira 2022-{(new Date().getFullYear())}</p>
           </Col>
           <Col md="3">
             <Nav>
@@ -45,7 +46,7 @@ export default function Footer() {
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink to="https://cv.zlyntlab.com" tag={Link}>
+                <NavLink to="/about" tag={Link}>
                   About me
                 </NavLink>
               </NavItem>

@@ -26,6 +26,7 @@ import "assets/demo/demo.css";
 import Index from "views/Index.js";
 import Privacy from "views/Privacy.js";
 import Solutions from "views/Solutions.js";
+import AboutMe from "views/AboutMe.js";
 import TermsPage from "views/Terms";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
@@ -37,6 +38,7 @@ root.render(
       <Route path="/terms" element={<TermsPage />} />
       <Route path="/privacy" element={<Privacy />} />
       <Route path="/solutions" element={<Solutions />} />
+      <Route path="/about" element={<AboutMe />} />
       <Route path="*" element={<Navigate to="/" replace />} />
     </Routes>
   </HashRouter>
