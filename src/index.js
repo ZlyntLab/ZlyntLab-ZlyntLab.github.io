@@ -17,7 +17,7 @@
 */
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { BrowserRouter, Route, Routes, Navigate } from "react-router-dom";
+import { HashRouter, Route, Routes, Navigate } from "react-router-dom";
 
 import "assets/css/nucleo-icons.css";
 import "assets/scss/blk-design-system-react.scss";
@@ -31,7 +31,7 @@ import TermsPage from "views/Terms";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
-  <BrowserRouter>
+  <HashRouter>
     <Routes>
       <Route path="/" element={<Index />} />
       <Route path="/terms" element={<TermsPage />} />
@@ -39,5 +39,5 @@ root.render(
       <Route path="/solutions" element={<Solutions />} />
       <Route path="*" element={<Navigate to="/" replace />} />
     </Routes>
-  </BrowserRouter>
+  </HashRouter>
 );

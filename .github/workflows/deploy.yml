@@ -1,0 +1,34 @@
+name: Deploy changes to Github Pages
+
+on:
+    push:
+        branches: ["main"]
+
+jobs:
+    build-build:
+        name: Build React App
+        runs-on: ubuntu-latest
+        steps:
+            # Checkout repository
+            - uses: actions/checkout@v3
+            
+            # Install dependencies
+            - name: Install build dependencies
+              run: npm install
+            
+            # Build our project
+            - name: Build the website
+              run: npm run build
+            
+            # Deploy project
+            - name: Deploy
+              run: |
+                git config --global user.name Zlynt
+                git config --global user.email contact@zlyntlab.com
+                git remote set-url origin https://${github_token}@github.com/${repository}
+                npm run deploy
+              env:
+                user_name: 'github-actions[bot]'
+                user_email: 'github-actions[bot]@users.noreply.github.com'
+                github_token: ${{ secrets.ACTIONS_DEPLOY_ACCESS_TOKEN }}
+                repository: ${{ github.repository }}
