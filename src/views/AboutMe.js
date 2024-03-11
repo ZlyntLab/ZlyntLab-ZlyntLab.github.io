@@ -616,6 +616,26 @@ export default function ProfilePage() {
                 <section className="section">
                     <Container>
                         <Row>
+                            <Col md="7">
+                                <Card className="card-plain">
+                                    <CardHeader>
+                                        <h1 className="profile-title text-left">Portfolio</h1>
+                                        <h5 className="text-on-back">Portfolio</h5>
+                                    </CardHeader>
+                                    <CardBody>
+                                        <p className="profile-description text-left">
+                                            During my academic and professional path, I developed the following solutions:
+                                            <ul>
+                                                {portfolioList.map((val, index) => <li><Link onClick={(ev) => {
+                                                    ev.preventDefault();
+                                                    changeCurrentPortfolio(index);
+                                                }}>{val.title}</Link></li>)}
+                                            </ul>
+                                        </p>
+                                    </CardBody>
+                                </Card>
+                            </Col>
+
                             <Col className="ml-auto" md="5">
                                 <Card className="card-coin card-plain">
                                     <CardHeader>
@@ -633,7 +653,7 @@ export default function ProfilePage() {
                                             type="button"
                                             onClick={(e) => {
                                                 e.preventDefault();
-                                                changeCurrentPortfolio(skillSet + 1);
+                                                changeCurrentPortfolio(portfolioIndex + 1);
                                             }}>
                                             {">"}
                                         </Button>
@@ -653,7 +673,7 @@ export default function ProfilePage() {
                                             type="button"
                                             onClick={(e) => {
                                                 e.preventDefault();
-                                                changeCurrentPortfolio(skillSet - 1);
+                                                changeCurrentPortfolio(portfolioIndex - 1);
                                             }}>
                                             {"<"}
                                         </Button>
@@ -683,7 +703,7 @@ export default function ProfilePage() {
                                                         <Button
                                                             className="btn-simple"
                                                             color="info"
-                                                            href="https://rehstore.arditi.pt"
+                                                            href={portfolioList[portfolioIndex].website}
                                                         >
                                                             <FontAwesomeIcon icon={faGlobe} style={{ marginRight: "15px" }} size="lg" /> Visit website
                                                         </Button>
@@ -692,7 +712,7 @@ export default function ProfilePage() {
                                                         <Button
                                                             className="btn-simple"
                                                             color="primary"
-                                                            href="https://github.com/NeuroRehabilitation/Reh-Store"
+                                                            href={portfolioList[portfolioIndex].github}
                                                         >
                                                             <i className="fab fa-github" /> Source Code
                                                         </Button>
@@ -700,25 +720,6 @@ export default function ProfilePage() {
                                                 </div>
                                             </TabPane>
                                         </TabContent>
-                                    </CardBody>
-                                </Card>
-                            </Col>
-                            <Col md="7">
-                                <Card className="card-plain">
-                                    <CardHeader>
-                                        <h1 className="profile-title text-left">Portfolio</h1>
-                                        <h5 className="text-on-back">Portfolio</h5>
-                                    </CardHeader>
-                                    <CardBody>
-                                        <p className="profile-description text-left">
-                                            During my academic and professional path, I developed the following solutions:
-                                            <ul>
-                                                {portfolioList.map((val, index) => <li><Link onClick={(ev) => {
-                                                    ev.preventDefault();
-                                                    changeCurrentPortfolio(index);
-                                                }}>{val.title}</Link></li>)}
-                                            </ul>
-                                        </p>
                                     </CardBody>
                                 </Card>
                             </Col>
