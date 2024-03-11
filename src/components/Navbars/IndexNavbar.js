@@ -98,7 +98,7 @@ export default function IndexNavbar() {
           <div className="navbar-collapse-header">
             <Row>
               <Col className="collapse-brand" xs="6">
-                <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                <a href="/" onClick={(e) => e.preventDefault()}>
                   Zlab•Afordable Inovation
                 </a>
               </Col>
@@ -143,7 +143,7 @@ export default function IndexNavbar() {
                 caret
                 color="default"
                 data-toggle="dropdown"
-                href="#pablo"
+                href="#"
                 nav
                 onClick={(e) => e.preventDefault()}
               >
@@ -151,11 +151,11 @@ export default function IndexNavbar() {
                 Solutions
               </DropdownToggle>
               <DropdownMenu className="dropdown-with-icons">
-                <DropdownItem href="/solutions">
+                <DropdownItem href="#/solutions">
                   <FontAwesomeIcon icon={faReact} style={{ marginRight: "15px" }} size="lg" />
                   The REF Framework
                 </DropdownItem>
-                <DropdownItem href="/solutions">
+                <DropdownItem href="#/solutions">
                   <FontAwesomeIcon icon={faBrain} style={{ marginRight: "15px" }} size="lg" />
                   Reh@Store
                 </DropdownItem>
