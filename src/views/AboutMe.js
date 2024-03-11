@@ -437,7 +437,7 @@ export default function ProfilePage() {
                                         <img
                                             className="img-center img-fluid rounded-circle"
                                             src={require("assets/img/Ivan.png")}
-                                            alt="Profile Photo"
+                                            alt="Ivan"
                                         />
                                         <h4 className="title">Areas of focus</h4>
                                     </CardHeader>
