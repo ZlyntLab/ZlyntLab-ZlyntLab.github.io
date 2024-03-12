@@ -40,7 +40,7 @@ import Footer from "components/Footer/Footer.js";
 import IndexNavbar from "components/Navbars/IndexNavbar";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGlobe } from "@fortawesome/free-solid-svg-icons";
+import { faGlobe, faLocation, faLocationDot } from "@fortawesome/free-solid-svg-icons";
 
 
 const hellos = [
@@ -149,6 +149,24 @@ const professionalExperience = [
         company: "Secção de Informática (University of Madeira)",
         dates: "Set. 2017 - Oct. 2020"
     }
+];
+
+const awards = [
+    {
+        title: "International Conference on ENTERprise Information Systems (CENTERIS)",
+        company: <span><FontAwesomeIcon icon={faLocationDot} /> Porto, Portugal</span>,
+        dates: "Nov. 2023"
+    },
+    {
+        title: <span>RUR VR Summit (Hackaton)<br/> 2º Place</span>,
+        company: <span><FontAwesomeIcon icon={faLocationDot} /> Bochum, Germany</span>,
+        dates: "Oct. 2023"
+    },
+    {
+        title: <span>CodeWeek Hackaton<br/>2º Place</span>,
+        company: <span><FontAwesomeIcon icon={faLocationDot} /> Funchal, Portugal</span>,
+        dates: "Oct. 2017"
+    },
 ]
 
 function ProfessionalExperience(experience) {
@@ -484,9 +502,41 @@ export default function ProfilePage() {
                         </Row>
                     </Container>
                 </div>
+
                 <div className="section">
                     <Container>
                         <Row className="justify-content-between">
+                            <Col md="5">
+                                <h1 className="profile-title text-left">Awards</h1>
+                                <h5 className="text-on-back">Awards</h5>
+                                <Row className="justify-content-between">
+                                    <Col md="12">
+
+                                        <Card className="card-coin card-plain">
+                                            <CardHeader>
+                                                <br />
+                                            </CardHeader>
+                                            <CardBody>
+                                                <br />
+                                                <br />
+                                                <br />
+                                                {ProfessionalExperience(awards)}
+                                            </CardBody>
+                                        </Card>
+                                    </Col>
+                                </Row>
+                            </Col>
+
+                            <Col md="5">
+                            </Col>
+                        </Row>
+                    </Container>
+                </div>
+                <div className="section">
+                    <Container>
+                        <Row className="justify-content-between">
+                            <Col md="5">
+                            </Col>
                             <Col md="5">
                                 <h1 className="profile-title text-left">Education</h1>
                                 <h5 className="text-on-back">Education</h5>
