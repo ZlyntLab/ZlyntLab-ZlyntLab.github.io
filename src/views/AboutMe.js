@@ -40,7 +40,7 @@ import Footer from "components/Footer/Footer.js";
 import IndexNavbar from "components/Navbars/IndexNavbar";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGlobe, faLocation, faLocationDot } from "@fortawesome/free-solid-svg-icons";
+import { faGlobe, faLocationDot } from "@fortawesome/free-solid-svg-icons";
 
 
 const hellos = [
