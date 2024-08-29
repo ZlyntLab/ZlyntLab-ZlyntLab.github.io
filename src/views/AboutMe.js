@@ -135,17 +135,17 @@ let ps = null;
 
 const professionalExperience = [
     {
-        title: "Software Engineer",
+        title: "Software Engineer | R&D",
         company: "NeuroRehabLab at ARDITI",
         dates: "Feb. 2022 - Jan. 2024"
     },
     {
-        title: "Master Thesis (Development of Reh@Store)",
+        title: "Software Engineer | Master Thesis | R&D",
         company: "NeuroRehabLab at ARDITI",
         dates: "Set. 2020 - May 2022"
     },
     {
-        title: "Volunteer",
+        title: "Volunteer (Software Engineer | Technical Support)",
         company: "Secção de Informática (University of Madeira)",
         dates: "Set. 2017 - Oct. 2020"
     }
@@ -224,9 +224,9 @@ const skillSetList = [
         ]
     },
     {
-        title: "Project Management",
+        title: "Methodology",
         skills: [
-            "SCRUM", "Agile", "Waterfall", "Technologies: Asana, Git, Github", "Requirement Analysis"
+            "SCRUM", "Agile", "Waterfall"
         ]
     },
     {
@@ -434,19 +434,17 @@ export default function ProfilePage() {
                                 <br />
                                 <br />
                                 <p className="profile-description">
-                                    👋 I'm Ivan, a software engineer with a diverse background.
-                                    With prior experience as a Research Software Engineer (hired as a Research Assistant),
-                                    I bring a structured and analytical mindset to my products.
+                                    👋 I'm Ivan, a software engineer with 7 years of experience.
                                 </p>
                                 <br />
                                 <br />
                                 <p className="profile-description">
-                                    🔬 My focus varies from software engineering to data science.
+                                    🔬 My focus varies from software engineering to data analytics.
                                 </p>
                                 <br />
                                 <br />
                                 <p className="profile-description">
-                                    🤝 I strongly believe that successfull software solutions are built by multidisciplinary teams. Why not understand many areas?
+                                    🤝 Successfull software results from team work.
                                 </p>
                             </Col>
                             <Col className="ml-auto mr-auto" lg="4" md="6">
@@ -465,7 +463,7 @@ export default function ProfilePage() {
                                             <li>Full-Stack Developer</li>
                                             <li>Application Developer</li>
                                             <li>DevOps</li>
-                                            <li>Data Science</li>
+                                            <li>Data Analytics</li>
                                             <li>Machine Learning</li>
                                         </ul>
                                     </CardBody>
